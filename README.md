@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FSW Barber - Bootcamp SaaS para Barbearias
 
-## Getting Started
+Este projeto é parte do bootcamp FullStackClub e consiste em um SaaS (Software as a Service) para gestão de barbearias, desenvolvido com [Next.js](https://nextjs.org).
 
-First, run the development server:
+## Funcionalidades
+
+- Cadastro e gerenciamento de clientes
+- Agendamento de horários
+- Controle de serviços e profissionais
+- Dashboard administrativo
+- Autenticação de usuários
+
+## Começando
+
+Para rodar o projeto localmente:
 
 ```bash
+npm install
 npm run dev
-# or
+# ou
+yarn install
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse [http://localhost:3000](http://localhost:3000) no navegador para visualizar.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Estrutura do Projeto
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `app/page.tsx`: Página principal do sistema
+- `components/`: Componentes reutilizáveis
+- `services/`: Integração com APIs e lógica de negócio
 
-## Learn More
+## Tecnologias Utilizadas
 
-To learn more about Next.js, take a look at the following resources:
+- Next.js
+- TypeScript
+- Prisma ORM
+- PostgreSQL
+- Tailwind CSS
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Aprenda Mais
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Documentação Next.js](https://nextjs.org/docs)
+- [Documentação Prisma](https://www.prisma.io/docs)
+- [Tailwind CSS](https://tailwindcss.com/docs)
 
-## Deploy on Vercel
+## Deploy
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Recomendamos o deploy na [Vercel](https://vercel.com/) para melhor performance e integração com Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Consulte a [documentação de deploy do Next.js](https://nextjs.org/docs/app/building-your-application/deploying) para mais detalhes.
+
+---
+
+Bootcamp FullStackClub • Projeto SaaS Barbearia
