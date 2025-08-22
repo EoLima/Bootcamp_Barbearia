@@ -12,6 +12,7 @@
     "seed": "tsx prisma/seed.ts"
   },
   "dependencies": {
+    "@radix-ui/react-avatar": "^1.1.10",
     "@radix-ui/react-slot": "^1.2.3",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
@@ -29,8 +30,10 @@
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.2.32",
+    "husky": "^9.1.7",
     "init": "^0.1.2",
     "install": "^0.13.0",
+    "lint-staged": "^16.1.5",
     "npm": "^11.5.2",
     "npx": "^10.2.2",
     "postcss": "^8",
