@@ -1,8 +1,2 @@
-sistema de estrelas
-
-melhorar os icones de busca (colocar nome correto e etc)
-
-
-
-Certificado
-X
+-sistema de estrelas
+-melhorar os icones de busca (colocar nome correto e etc)

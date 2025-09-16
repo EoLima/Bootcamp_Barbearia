@@ -51,15 +51,6 @@ const Home = async () => {
         </h2>
         <div className="flex gap-4 overflow-auto [&::-webkit-scrollbar]:hidden">{popularBarbershops.map(barbershop => <BarbershopItem barbershop={barbershop} key={barbershop.id} />)}</div>
       </div>
-      <footer>
-        <Card>
-          <CardContent className="px-5 py-6 ">
-            <p className="text-sm text-gray-400">
-              © 2023 Copyright <span className="font-bold">Fluxo Soluções Barber</span>
-            </p>
-          </CardContent>
-        </Card>
-      </footer>
     </div>
   )
 }
