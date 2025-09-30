@@ -97,13 +97,16 @@ const SidebarSheet = () => {
             key={option.title}
             className="justify-start gap-2"
             variant="ghost"
+            asChild
           >
-            <Image
-              src={option.imageUrl}
-              alt={option.title}
-              width={18}
-              height={18}
-            />
+            <Link href={`/barbershops?search=${option.title}`}>
+              <Image
+                src={option.imageUrl}
+                alt={option.title}
+                width={18}
+                height={18}
+              />
+            </Link>
             {option.title}
           </Button>
         ))}
