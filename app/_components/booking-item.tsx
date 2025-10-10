@@ -1,6 +1,6 @@
 "use client"
 
-import { Prisma } from "@prisma/client"
+import { Prisma } from "../generated/prisma"
 import { Avatar, AvatarImage } from "./ui/avatar"
 import { Badge } from "./ui/badge"
 import { Card, CardContent } from "./ui/card"
@@ -15,7 +15,6 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "./ui/sheet"
-import Image from "next/image"
 import PhoneItem from "./phone-item"
 import { Button } from "./ui/button"
 import {
@@ -32,11 +31,14 @@ import { deleteBooking } from "../_actions/delete-booking"
 import { toast } from "sonner"
 import { useState } from "react"
 import BookingSummary from "./booking-summary"
+
 interface BookingItemProps {
   booking: Prisma.BookingGetPayload<{
     include: {
       service: {
-        include: { barbershop: true }
+        include: {
+          barbershop: true
+        }
       }
     }
   }>
